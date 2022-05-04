@@ -9,5 +9,5 @@
 ```
 
 ```bash
-dart run calc.dart
+dart run
 ```

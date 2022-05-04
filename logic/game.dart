@@ -12,8 +12,9 @@ startGame() async {
     if (userAnswer == question.answer) {
       score++;
       print('ya valid!!!');
-    } else
+    } else {
       print('ya wrong!');
+    }
 
     print('');
     index++;
@@ -38,18 +39,21 @@ startGame() async {
   } else if (score < 7) {
     print('tips: you can also have negative answers oooh!(*_-)');
     print('you are almost there try harder');
-  } else if (score > 7 && score < 10) {
-    // print('tips: you can also have negative answers oooh!(*_-)');
+  } else if (score >= 7 && score < 10) {
     print('you are almost there try much more harder');
+    print('developer: "remember you have to beat the game!(*_-)"');
   }
   if (score == 10) {
     print(
-        'Wooh!!! You beat my game. welldone! (^-^) you are truly a mastermind.');
+        'developer: Wooh!!! You beat my game. welldone! (^-^) you are truly a mastermind. twale!');
   }
 
+  // restart the game
   restartGame();
 }
 
+// the while loop is really powerfull,
+//and its very important for this feature
 restartGame() {
   while (true) {
     var ans = prompt('Do you want to play again!(*_*) (y / n)');

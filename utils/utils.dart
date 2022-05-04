@@ -3,9 +3,6 @@ import 'dart:io';
 prompt(text) {
   print(text);
   var myNum = stdin.readLineSync();
-
-  print(myNum.runtimeType);
-
   return myNum;
 }
 
