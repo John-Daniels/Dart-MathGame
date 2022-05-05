@@ -2,7 +2,7 @@
 
 ## How to start the Game?
 
-#### Dart runtime is requied!
+#### Dart runtime is required!
 
 ```cmd
 dart run
