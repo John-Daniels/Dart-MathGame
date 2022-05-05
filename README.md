@@ -1,13 +1,9 @@
 # Math Game made with the Dart Sdk
 
-### Usage
+## How to start the Game?
 
-### How to start the Game?
+#### Dart runtime is requied!
 
-```html
-<h3>The dart runtime is required</h3>
-```
-
-```bash
+```cmd
 dart run
 ```
