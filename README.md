@@ -4,6 +4,16 @@
 
 #### Dart runtime is required!
 
-```cmd
+## For linux & others
+
+```sh
 dart run
 ```
+
+## For Windows users
+
+```cmd
+build/mathgame.exe
+```
+
+### feel free to experiment with this powerfull code!
